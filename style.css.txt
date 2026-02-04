@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+}
+
+header {
+  background: #003049;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1581092160607-ee67f8c77a15") no-repeat center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero button {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  background: #fcbf49;
+  cursor: pointer;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  background: #003049;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+}

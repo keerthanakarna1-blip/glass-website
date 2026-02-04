@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Glass Solutions</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <h1>Smart Glass Solutions</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#order">Order Online</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h2>Professional Glass Installation & Supply</h2>
+  <p>Door Glass • Stair Glass • Toughened Glass • Office Glass</p>
+  <button onclick="scrollToOrder()">Order Now</button>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">🚪 Door Glass</div>
+    <div class="card">🪜 Steps / Stair Glass</div>
+    <div class="card">🛡️ Toughened Glass</div>
+    <div class="card">🏢 Office Partition Glass</div>
+    <div class="card">🪟 Window Glass</div>
+    <div class="card">🎨 Custom Glass Design</div>
+  </div>
+</section>
+
+<section id="order">
+  <h2>Online Order / Enquiry</h2>
+  <form id="orderForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" placeholder="Mobile Number" required>
+
+    <select id="glassType" required>
+      <option value="">Select Glass Type</option>
+      <option>Door Glass</option>
+      <option>Steps / Stair Glass</option>
+      <option>Toughened Glass</option>
+      <option>Office Partition Glass</option>
+      <option>Window Glass</option>
+      <option>Custom Glass</option>
+    </select>
+
+    <textarea id="details" placeholder="Enter size & requirement"></textarea>
+
+    <button type="submit">Send Order via WhatsApp</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Chennai, Tamil Nadu</p>
+  <p>📞 +91 98765 43210</p>
+  <p>📧 smartglass@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Smart Glass Solutions. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
